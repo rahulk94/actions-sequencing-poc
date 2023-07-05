@@ -1,0 +1,21 @@
+name: "Build project"
+
+on:
+  push:
+  # Allow manual dispatch
+  workflow_dispatch:
+
+jobs:
+  build-phase:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Build App
+        run: |
+          echo "Starting up"
+          echo "Building building building ..."
+          echo "Build success"
+
+      - name: Publish to GCR
+        run: |
+          echo "Pushing image"
+          echo "Wrapping up"

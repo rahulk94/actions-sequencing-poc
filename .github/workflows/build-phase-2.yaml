@@ -13,7 +13,7 @@ jobs:
     steps:
       - name: Test App
         run: |
-          echo "Pulling app from GCR"
+          echo "Pulling app from GCR my-app:commitHash"
           echo "Testing testing testing..."
           sleep 10
           echo "Build success"

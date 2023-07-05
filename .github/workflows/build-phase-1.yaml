@@ -13,9 +13,11 @@ jobs:
         run: |
           echo "Starting up"
           echo "Building building building ..."
+          sleep 10
           echo "Build success"
 
       - name: Publish to GCR
         run: |
           echo "Pushing image"
+          sleep 5
           echo "Wrapping up"

@@ -15,4 +15,5 @@ jobs:
         run: |
           echo "Pulling app from GCR"
           echo "Testing testing testing..."
+          sleep 10
           echo "Build success"
